@@ -93,7 +93,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("../img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,7 +123,7 @@ h6 {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #FF671F;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -202,7 +202,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #FF671F;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -213,11 +213,12 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%), url("../img/bg-callout M.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .callout h2 {
   font-size: 3.5rem;
@@ -313,33 +314,33 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #FF671F;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #993d12;
   text-decoration: none;
 }
 
 a {
-  color: #1D809F;
+  color: #FF671F;
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: #993d12;
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #FF671F !important;
+  border-color: #FF671F !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #993d12 !important;
+  border-color: #993d12 !important;
 }
 
 .btn-secondary {
@@ -363,11 +364,11 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #FF671F !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #FF671F !important;
 }
 
 .text-secondary {
