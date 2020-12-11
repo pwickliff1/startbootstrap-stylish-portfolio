@@ -154,6 +154,26 @@ h6 {
     height: 100vh;
   }
 
+#projects {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+	color: white;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../img/bg-projects.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  #projects {
+    height: 100vh;
+  }
+
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
@@ -370,6 +390,7 @@ a {
 
 a:hover, a:focus, a:active {
   color: #993d12;
+
 }
 
 .btn-primary {
